@@ -1,0 +1,282 @@
+/* General Styling */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Banner */
+header {
+    background-color: #001f3f; 
+
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+
+.custom-header {
+    color: white;  /* White text */
+}
+
+.logo-left,.logo-right {
+    height: 20px;
+    margin-right: 10px;
+    width: 12%;
+    height: 12%;
+}
+
+.run-george {
+    font-family: 'Precious', cursive;
+    font-size: 52px; /* Adjust size as needed */
+    color: #ffec96; 
+    margin: 0; /* Remove any default margin */
+    font-style: italic;
+}
+
+
+
+nav {
+    font-family: 'Georgia', serif; /* Georgia font */
+    font-size: 22px; /* Bigger font */
+    font-weight: bold; /* Bold font */
+}
+
+nav a {
+    color: #ffec96;  /* White text */
+    margin-right: 37px; /* More space between the links */
+    margin-left: 30px;
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease;
+}
+
+
+nav a:hover {
+    transform: scale(1.05);
+}
+
+
+/* Welcome Section */
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.welcome-text {
+    position: absolute;
+    font-size: 75px; /* Bigger font */
+    top: 50%;
+    left: 9%;
+    transform: translateY(-50%);
+    color: black;
+    font-weight: bold;
+    font-family: 'Optima', sans-serif; /* Georgia font */
+}
+
+
+/* Section Styling */
+.section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.section img {
+    width: 50%;
+}
+
+
+/* Styling specific to the Run Partners section */
+.run-heading {
+    font-family: 'Optima', sans-serif; /* Georgia font */
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.run-paragraph {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#connect-button {
+    background-color: limegreen; /* Neon green color */
+    color: white; /* Text color */
+    font-weight: bold;
+    border: none; /* No border */
+    padding: 10px 20px; /* Space around text */
+    border-radius: 13px; /* Rounded corners */
+    font-size: 21px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: block; /* Ensures button is block-level for centering */
+    margin: 20px auto; /* Centers button horizontally */
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+#connect-button:hover {
+    background-color: darkgreen; /* Darker green on hover */
+    transform: scale(1.1); /* Slightly enlarges the button */
+}
+
+
+
+/* Testimonial Slider */
+.testimonial-slider {
+    background-color: black;
+    padding: 50px 0;
+}
+
+.testimonial-slider h2 {
+    font-family: 'Optima', sans-serif; /* Georgia font */
+    font-weight: bold;
+    font-size: 3.5rem; /* Adjust size as needed */
+    color: white; /* Adjust color as needed */
+}
+
+
+.slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-item {
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 15px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.testimonial-text {
+    font-size: 1.1em;
+    color: #bafff5;
+    margin-bottom: 15px;
+    font-style: italic; /* Makes the font italic */
+}
+
+.testimonial-name {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #b6c1fa;
+    font-family: 'Optima', sans-serif; /* Georgia font */
+}
+
+/* Testimonial Slider Ends*/
+
+/* Styling Maps */
+
+.popular-run-routes {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Optima', sans-serif; /* Georgia font */
+    color: #c6adff;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+
+/* Styling specific to the Maps section */
+
+.monument-image {
+    padding: 30px; /* Adjust padding as needed */
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease; 
+}
+
+.monument-image:hover {
+    transform: scale(1.05); /* Slightly enlarges the image */
+}
+
+
+
+.map-heading {
+    font-family: 'Optima', sans-serif; /* Georgia font */
+    font-size: 3.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a4effc;
+}
+
+.map-paragraph {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Bottom Banner */
+
+
+/* Footer Styling */
+.footer {
+    background-color: #001f3f;
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer-logo {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-icon {
+    font-size: 24px; /* Adjust size for icons */
+    text-decoration: none;
+}
+
+/* Always show platform-specific colors */
+.instagram {
+    color: #e4405f; /* Instagram gradient color */
+}
+
+.facebook {
+    color: #3b5998; /* Facebook Blue */
+}
+
+.linkedin {
+    color: #0077b5; /* LinkedIn Blue */
+}
+
+.twitter {
+    color: #1da1f2; /* Twitter Blue */
+}
