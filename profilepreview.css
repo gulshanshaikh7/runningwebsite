@@ -1,0 +1,144 @@
+/* External CSS for Profile Previews */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#top-banner {
+    background-color: #001f3f;
+    text-align: center;
+    padding: 5px 0;
+    color: #ffec96;
+    font-size: 1.5rem;
+    font-family: 'Georgia', serif; /* Georgia font */
+}
+
+nav {
+    font-family: 'Georgia', serif; /* Georgia font */
+    font-size: 22px; /* Bigger font */
+    font-weight: bold; /* Bold font */
+}
+
+nav a {
+    color: #ffec96;  /* White text */
+    margin-right: 37px; /* More space between the links */
+    margin-left: 30px;
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease;
+}
+
+
+nav a:hover {
+    transform: scale(1.05);
+}
+
+#p-description {
+  font-family: 'Georgia', serif; /* Georgia font */
+  font-size: 20px; /* Bigger font */
+  color: #ffec96;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#photos-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.photo-section {
+    text-align: center;
+    max-width: 30%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border: 2px solid #800080; /* Neon purple */
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.photo-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #800080;
+}
+
+.photo-section img {
+    max-width: 100%;
+    border: 3px solid #800080;
+    border-radius: 10px;
+}
+
+.photo-section h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #bb9eff;
+    text-shadow: 1px 1px 5px #001f3f;
+}
+
+.photo-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #a4effc;
+}
+
+/* Tags */
+.tags {
+    margin-top: 15px;
+}
+
+/* Tag Colors */
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Tags for Photo 1 */
+#photo1 .tag:nth-child(1) {
+    background-color: #ffadad; /* Pastel Red */
+}
+#photo1 .tag:nth-child(2) {
+    background-color: #ffd6a5; /* Pastel Orange */
+}
+#photo1 .tag:nth-child(3) {
+    background-color: #fdffb6; /* Pastel Yellow */
+}
+
+/* Tags for Photo 2 */
+#photo2 .tag:nth-child(1) {
+    background-color: #caffbf; /* Pastel Green */
+}
+#photo2 .tag:nth-child(2) {
+    background-color: #9bf6ff; /* Pastel Cyan */
+}
+#photo2 .tag:nth-child(3) {
+    background-color: #a0c4ff; /* Pastel Blue */
+}
+
+/* Tags for Photo 3 */
+#photo3 .tag:nth-child(1) {
+    background-color: #bdb2ff; /* Pastel Purple */
+}
+#photo3 .tag:nth-child(2) {
+    background-color: #ffc6ff; /* Pastel Pink */
+}
+#photo3 .tag:nth-child(3) {
+    background-color: #fffffc; /* Pastel White */
+}
+
+/* Hover Effect for Pastel Tags */
+.tag:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1); /* Slightly brighter on hover */
+}
+
