@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+    <link rel="stylesheet" href="formstyles.css">
+
+</head>
+<body>
+
+
+    <form action="pro-form.php" method="post">
+
+        <h1>Registration</h1>
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="gwid">GWID</label>
+        <input type="text" id="gwid" name="gwid">
+
+        <label for="email">GW Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="message">Your Interests</label>
+        <textarea id="message" name="message"></textarea>
+
+        <label for="priority">Level</label>
+        <select id="priority" name="priority">
+            <option value="1">Beginner</option>
+            <option value="2" selected>Intermediate</option>
+            <option value="3">Advanced</option>
+            <option value="4">Elite</option>
+        </select>
+
+        <fieldset>
+            <legend>Fitness Goals</legend>
+
+            <label>
+                <input type="radio" name="type" value="1" checked>
+                5K
+            </label>
+
+            <label>
+                <input type="radio" name="type" value="2">
+                10k
+            </label>
+
+            <label>
+                <input type="radio" name="type" value="3">
+                Half Marathon
+            </label>
+
+            <label>
+                <input type="radio" name="type" value="4">
+                Marathon
+            </label>
+
+            <label>
+                <input type="radio" name="type" value="5">
+                Ultra Marathon
+            </label>
+
+
+        </fieldset>
+
+        <label>
+            <input type="checkbox" name="terms">
+            I agree to the terms and conditions
+        </label>
+
+        <br>
+
+        <button>Send</button>
+
+    </form>
+
+    <div class="photo-frame">
+        <img src="scancode.jpg" alt="Scan Now" class="scancode-image">
+        <div class="photo-title">Scan now!</div>
+    </div>
+
+</body>
+</html>
