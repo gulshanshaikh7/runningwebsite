@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+
+
+
+</head>
+<body>
+    <!-- Top Banner -->
+    <header class="text-white text-center py-3">
+            <div class="container d-flex align-items-center justify-content-between">
+                <img src="GWlogo.png" alt="GW Logo" class="logo-left">
+                <h1 class="run-george">Run George!</h1> 
+                <img src="Logo.png" alt="Logo" class="logo-right"> 
+            </div>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="profilepreview.html" target="_blank">Profile Preview</a>
+            <a href="race-page.html" target="_blank">View Races</a>
+            <a href="testform.html" target="_blank">Registration</a>
+            <a href="resource-page.html" target="_blank">Runner Resources</a>
+            <a href="Payment.html" target="_blank">Payment</a>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Main Body -->
+    <main>
+        <div class="image-container">
+            <img src="main.webp" alt="Main Running Image" class="main-image">
+            <h1 class="welcome-text">Welcome to Running</h1>
+        </div>
+
+        <!-- Sections -->
+        <section class="row align-items-center mt-5">
+            <div class="col-md-6">
+                <img src="image1.jpg" alt="Run Partner" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2 class="run-heading">Find Run Partner’s</h2>
+                <p class="run-paragraph">Connect with like-minded runners and start your fitness journey together.</p>
+                <button id="connect-button" onclick="window.open('testform.html', '_blank')">Connect</button>
+            </div>
+        </section>
+
+        <section class="row align-items-center mt-5">
+            <div class="col-md-6 order-md-2">
+                <img src="image2.jpg" alt="Paid Races" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2 class="run-heading">Explore Paid Races</h2>
+                <p class="run-paragraph">Discover opportunities to participate in competitive races <br> and win cash prizes.</p>
+                <button id="connect-button" onclick="window.open('race-page.html', '_blank')">View Races</button>
+            </div>
+        </section>
+
+        <section class="row align-items-center mt-5">
+            <div class="col-md-6">
+                <img src="image3.png" alt="Run Resources" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2 class="run-heading">View Running Resources</h2>
+                <p class="run-paragraph">Explore tips, gear, and articles to enhance your running experience.</p>
+                <button id="connect-button" onclick="window.open('resource-page.html', '_blank')">Run Gear</button>
+            </div>
+        </section>
+
+
+        <!-- Testimonial Slider Section -->
+
+        <section class="testimonial-slider my-5">
+                    <div class="container">
+                        <h2 class="text-center mb-5">What Runners Are Saying</h2>
+                        <div class="slick-carousel">
+                            <!-- Testimonial 1 -->
+                            <div class="testimonial-item text-center">
+                                <img src="femalerunner1.jpg" alt="Sophia R" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"As a first-year student trying to find my footing at GWU, this app has been a game-changer!"</p>
+                                <h5 class="testimonial-name">Sophia R. <br>(Freshman)</h5>
+                            </div>
+                            <!-- Testimonial 2 -->
+                            <div class="testimonial-item text-center">
+                                <img src="malerunner4.jpg" alt="Jason M" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"Balancing grad school and fitness can be tough, but the app’s matching feature keeps me on track. I’ve met runners with similar goals, and we motivate each other to push harder every week."</p>
+                                <h5 class="testimonial-name">Jason M. <br>(Graduate Student)</h5>
+                            </div>
+                            <!-- Testimonial 3 -->
+                            <div class="testimonial-item text-center">
+                                <img src="femalerunner2.jpg" alt="Dr. Emma T" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"I use the app to join weekend runs with students and staff. It’s been a wonderful way to connect outside the classroom while staying active. Plus, the running resources have helped me pick the perfect pair of running shoes!"</p>
+                                <h5 class="testimonial-name">Dr. Emma T. <br>(Professor, History Department)</h5>
+                            </div>
+                            <!-- Testimonial 5 -->
+                            <div class="testimonial-item text-center">
+                                <img src="femalerunner3.jpg" alt="Ava P" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"The app’s running articles are a lifesaver. I’ve learned so much about injury prevention and finding the right gear for my training. It’s like having a personal coach and running community in one place."</p>
+                                <h5 class="testimonial-name">Ava P. <br>(Sophomore)</h5>
+                            </div>
+                            <!-- Testimonial 6 -->
+                            <div class="testimonial-item text-center">
+                                <img src="malerunner1.jpg" alt="Daniel L" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"The paid races are my favorite feature! The competition keeps me motivated, and winning second place in my last race gave me a boost in confidence and some extra cash. This app makes running fun and competitive."</p>
+                                <h5 class="testimonial-name">Daniel L. <br>(PhD Student, Engineering)</h5>
+                            </div>
+                            <!-- Testimonial 7 -->
+                            <div class="testimonial-item text-center">
+                                <img src="femalerunner4.jpg" alt="Sarah J" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"Finding a running buddy was so easy with this app! I matched with someone who loves trail runs as much as I do, and now we’re planning to tackle Rock Creek Park together every weekend."</p>
+                                <h5 class="testimonial-name">Sarah J. <br>(Junior)</h5>
+                            </div>
+                            <!-- Testimonial 8 -->
+                            <div class="testimonial-item text-center">
+                                <img src="malerunner3.jpg" alt="Professor James H" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"As someone who’s always busy with lectures and research, this app helps me schedule runs at times that work for me. I’ve even joined a few challenges—it’s a healthy way to unwind and stay active."</p>
+                                <h5 class="testimonial-name">Professor James H. <br>(Physics Department)</h5>
+                            </div>
+                            <!-- Testimonial 9 -->
+                            <div class="testimonial-item text-center">
+                                <img src="femalerunner5.jpg" alt="Rachel S" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"I love the location-sharing feature—it feels safe knowing my friends can track my runs. Plus, the app’s premium version has been worth every penny for its added perks and challenges!"</p>
+                                <h5 class="testimonial-name">Rachel S. <br> (Graduate Student)</h5>
+                            </div>
+                            <!-- Testimonial 10 -->
+                            <div class="testimonial-item text-center">
+                                <img src="malerunner5.jpg" alt="Nathan B" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"This app has transformed my fitness journey. Whether it’s the social runs, discovering tips on proper running posture, or competing in races, I’ve never felt more motivated. It’s truly a must-have for GWU runners."</p>
+                                <h5 class="testimonial-name">Nathan B. <br>(Senior)</h5>
+                            </div>
+                            <!-- Testimonial 4 -->
+                            <div class="testimonial-item text-center">
+                                <img src="malerunner2.jpg" alt="Michael K" class="testimonial-photo rounded-circle mb-3">
+                                <p class="testimonial-text">"I never thought I’d enjoy running until I joined the app’s paid challenges. The chance to compete and win money made it exciting, and now I’ve set fitness goals I’m finally sticking to. Who knew running could be so rewarding—literally?"</p>
+                                <h5 class="testimonial-name">Michael K. <br>(Staff Member)</h5>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+        <!-- Running Maps -->
+        <section class="row align-items-center mt-5">
+            <div class="col-md-12 text-center">
+                <h2 class="popular-run-routes">Popular Run Routes around GW Campus</h2>
+            </div>
+        </section>
+
+        <section class="row align-items-center mt-5">
+            <div class="col-md-9">
+                <img src="monument.webp" alt="Monument Run" class="img-fluid rounded monument-image">
+            </div>
+            <div class="col-md-3">
+                <h2 class="map-heading">Monument Run</h2>
+                <p class="map-paragraph">This is a short and flat 3-mile run <br> that will get you out to see <br> the sights near GW's campus.</p>
+            </div>
+            <div class="col-md-9">
+                <img src="island.webp" alt="Theodore Roosevelt Island" class="img-fluid rounded monument-image">
+            </div>
+            <div class="col-md-3">
+                <h2 class="map-heading">Theodore Roosevelt Island</h2>
+                <p class="map-paragraph">Fondly known as "Teddy," <br> this 4.5 mile route will transport you from the bustling city streets to a more quiet setting. It provides beautiful views of Foggy Bottom, monuments, the Key Bridge and the Georgetown Waterfront.</p>
+            </div>
+            <div class="col-md-9">
+                <img src="georgetown.webp" alt="Georgetown Waterfront" class="img-fluid rounded monument-image">
+            </div>
+            <div class="col-md-3">
+                <h2 class="map-heading">Georgetown <br> Waterfront</h2>
+                <p class="map-paragraph">This is an out and back run <br> that can be shortened or lengthened depending on <br>how far you would like to go. <br> These trails are the hidden gem of GW and Northwest Washington D.C. in general.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Bottom Banner -->
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- University Logo -->
+            <img src="universitylogo.png" alt="University Logo" class="footer-logo">
+
+            <!-- Social Media Links -->
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon facebook" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon twitter" aria-label="Twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+        <script src="scripts.js"></script>
+</body>
+</html>
