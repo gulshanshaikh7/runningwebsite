@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Payment Options</title>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: #e5e7eb;">
+
+	<header class="text-white text-center py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <img src="images/GWlogo.png" alt="GW Logo" class="logo-left">
+            <h1 class="page-title">Payment</h1>
+            <img src="images/reviselogo.png" alt="Logo" class="logo-right"> 
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="profilepreview.html" class="nav-link">Profile Preview</a></li>
+                <li class="nav-item"><a href="race-page.html" class="nav-link">Races</a></li>
+                <li class="nav-item"><a href="Registration.html" class="nav-link">Registration</a></li>
+                <li class="nav-item"><a href="resource-page.html" class="nav-link">Runner Resources</a></li>
+                <li class="nav-item"><a href="Payment.html" class="nav-link">Payment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<h2 style="font-size: 24px; margin-top: 10px;">Please fill out your payment information below:</h2>
+<form method="get" action="">
+<fieldset id="billing-info">
+	<div class="billing">
+		<h3>Billing Information</h3>
+		<legend style="font-size: 20px;">Full Name*</legend>
+		<input type="text" name="name" placeholder="John Doe" required />
+	</div>
+	<div class="billing">
+		<legend style="font-size: 20px;">Address</legend>
+		<input type="text" name="address" placeholder="1234 Main St"/>
+	</div>
+	<div class="billing">
+		<legend style="font-size: 20px;">City</legend>
+		<input type="text" name="city" placeholder="City"/>
+	</div>
+	<div class="billing">
+		<legend style="font-size: 20px;">State/Province*</legend>
+			<select id="state" name="state" required>
+			    <option value="">Select your state</option>
+			    <option value="AL">Alabama</option>
+			    <option value="AK">Alaska</option>
+			    <option value="AZ">Arizona</option>
+			    <option value="AR">Arkansas</option>
+			    <option value="CA">California</option>
+			    <option value="CO">Colorado</option>
+			    <option value="CT">Connecticut</option>
+			    <option value="DE">Delaware</option>
+			    <option value="FL">Florida</option>
+			    <option value="GA">Georgia</option>
+			    <option value="HI">Hawaii</option>
+			    <option value="ID">Idaho</option>
+			    <option value="IL">Illinois</option>
+			    <option value="IN">Indiana</option>
+			    <option value="IA">Iowa</option>
+			    <option value="KS">Kansas</option>
+			    <option value="KY">Kentucky</option>
+			    <option value="LA">Louisiana</option>
+			    <option value="ME">Maine</option>
+			    <option value="MD">Maryland</option>
+			    <option value="MA">Massachusetts</option>
+			    <option value="MI">Michigan</option>
+			    <option value="MN">Minnesota</option>
+			    <option value="MS">Mississippi</option>
+			    <option value="MO">Missouri</option>
+			    <option value="MT">Montana</option>
+			    <option value="NE">Nebraska</option>
+			    <option value="NV">Nevada</option>
+			    <option value="NH">New Hampshire</option>
+			    <option value="NJ">New Jersey</option>
+			    <option value="NM">New Mexico</option>
+			    <option value="NY">New York</option>
+			    <option value="NC">North Carolina</option>
+			    <option value="ND">North Dakota</option>
+			    <option value="OH">Ohio</option>
+			    <option value="OK">Oklahoma</option>
+			    <option value="OR">Oregon</option>
+			    <option value="PA">Pennsylvania</option>
+			    <option value="RI">Rhode Island</option>
+			    <option value="SC">South Carolina</option>
+			    <option value="SD">South Dakota</option>
+			    <option value="TN">Tennessee</option>
+			    <option value="TX">Texas</option>
+			    <option value="UT">Utah</option>
+			    <option value="VT">Vermont</option>
+			    <option value="VA">Virginia</option>
+			    <option value="WA">Washington</option>
+			    <option value="WV">West Virginia</option>
+			    <option value="WI">Wisconsin</option>
+			    <option value="WY">Wyoming</option>
+		</select>
+	</div>
+	<div class="billing">
+		<legend style="font-size: 20px;">Zip Code*</legend>
+		<input type="text" name="Zip" required/>
+	</div>
+</fieldset>
+
+<fieldset id="payment-method">
+	<h3>Payment Method</h3>
+	Payment Method: 
+       <input type="radio" name="payment-method" value="1">Credit/Debit Card
+       <input type="radio" name="payment-method" value="2">Paypal
+       <input type="radio" name="payment-method" value="3">Bank Transfer
+     <p></p>
+
+    <div id="Card">
+    <h4>Credit/Debit Card
+    <img src="images/Visa-Logo.jpg" alt="visa" width="35" height="25" style="opacity: 0.2; transition: opacity 0.3s;">
+    <img src="images/Mastercard-Logo.png" alt="mastercard" width="35" height="25" style="opacity: 0.2; transition: opacity 0.3s;">
+    <img src="images/amex logo.jpg" alt="amex" width="35" height="25" style="opacity: 0.2; transition: opacity 0.3s;">
+    </h4>
+    	<div class="input-group">
+		    <span class="input-group-text">
+		        <i class="bi bi-credit-card-2-front-fill"></i>
+		    </span>
+		    <input type="text" class="form-control" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+		</div></br>
+       	<div class="cards">
+       		<label for="expiry-date">Expiry Date*</label></br>
+        	<input type="month" id="expiry-date" name="expiry-date" required>
+        </div></br>
+        <div class="cards">
+            <label for="cvv">CVV*</label></br>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+        </div></br>
+        <button type="submit">Submit payment</button>
+    </div>
+
+    <div id="paypal">
+    <h4>PayPal
+    <img src="images/paypal-logo.png" id="paypal-logo" alt="paypal" width="35" height="35">
+	</h4>
+    	<p>You will be redirected to PayPal to complete your payment securely.</p>
+        <button onclick="window.location.href='https://www.paypal.com'">Pay with PayPal</button>
+    </div>
+
+    <div id="transfer">
+        <h4>Bank Transfer</h4>
+        <p>Transfer your payment to the following account:</p>
+            <ul>
+                <li><strong>Bank:</strong> Bank Name</li>
+                <li><strong>Account Number:</strong> 123456789</li>
+                <li><strong>IBAN:</strong> XX00 XXXX 0000 0000 0000</li>
+                <li><strong>SWIFT Code:</strong> XXXX1234</li>
+            </ul>
+            <p>Please use your GWID as the payment reference.</p>
+        </div>
+</fieldset>
+</form>
+<script src="payment.js"></script>
+</body>
+</html>
